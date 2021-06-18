@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(224, 17, 231, 0.397),rgba(17, 231, 231, 0.89)), url(extra.jpeg) ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type:none ;
+    margin-top: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color: rgba(231, 17, 63, 0.938);
+    padding: 5px 30px;
+    border: 2px solid transparent;
+
+}
+
+ul li a:hover{
+    background-color: rgba(231, 17, 63, 0.938);
+    color: white;
+    transition: 0.6s ease;
+}
+
+ul li.active a{
+    background-color: rgba(231, 17, 63, 0.938);
+    color: white;
+}
+
+.logo img{
+    float: left;
+    width:600px;
+    height:100px ;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top:30%;
+    left:20%;
+    transform: translate(-50%-50%);
+}
+
+.title h1{
+    color: powderblue;
+    font-size:60px;
+}
+
+.button{
+    position: absolute;
+    top:50%;
+    left:42%;
+    transform: translate(-50%-50%);
+}
+
+.btn{
+    border: 2px solid rgba(231, 24, 17, 0.938);
+    padding: 10px 30px;
+    color:  rgb(255,182,193);
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: rgba(231, 17, 17, 0.938);
+    color: palevioletred;
+    transition: 0.6s ease;
+}
